@@ -1,0 +1,58 @@
+.Header .top-bar {
+  background-color: #8db4c3;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Header .email-container {
+  display: flex;
+  align-items: center;
+}
+
+.Header .email-address {
+  color: black;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.Header .clifton-header {
+  width: 100%;
+  margin-bottom: -60px;
+}
+
+.Header .logo {
+  width: 200px;
+  position: relative;
+  top: -20px;
+  z-index: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Header .slogan {
+  background-color: #8db4c3;
+  margin-top: -28px;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .Header .logo {
+    width: 150px;
+    top: 0;
+  }
+  .Header .slogan {
+    font-size: 12px;
+    margin-top: -10px;
+  }
+}
