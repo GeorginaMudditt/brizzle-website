@@ -37,8 +37,8 @@
 }
 
 .Header .slogan {
-  background-color: #c8c3b7;
-  background-image: url("../src/assets/brushed-alum-dark.png");
+  background-color: #38438f;
+  color: white;
   margin-top: -28px;
   padding: 10px;
   font-size: 30px;
