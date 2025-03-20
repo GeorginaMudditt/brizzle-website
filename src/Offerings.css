@@ -1,0 +1,22 @@
+.Offerings .offerings-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin: 50px;
+}
+
+.Offerings .card {
+  width: 100%;
+  justify-self: center;
+}
+
+.Offerings .card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.Offerings .card-text {
+  color: #38438f;
+  text-align: center;
+}
