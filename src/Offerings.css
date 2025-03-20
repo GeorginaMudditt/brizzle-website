@@ -8,6 +8,11 @@
 .Offerings .card {
   width: 80%;
   justify-self: center;
+  text-decoration: none;
+  color: inherit;
+  border: 5px solid #38438f;
+  border-radius: 10px;
+  display: block;
 }
 
 .Offerings .card-img-top {

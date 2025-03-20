@@ -1,4 +1,5 @@
 import "./Offerings.css";
+import { Link } from "react-router-dom";
 import kids from "./assets/kids-lesson.jpg";
 import adults from "./assets/adult-learning.jpg";
 import profile from "./assets/profile.jpeg";
@@ -10,44 +11,52 @@ export default function Offerings() {
   return (
     <div className="Offerings">
       <div className="offerings-container">
-        <div className="card">
-          <img src={kids} className="card-img-top" alt="..." />
+        <Link to="/kids" className="card">
+          <img src={kids} className="card-img-top" alt="Kids lessons" />
           <div className="card-body">
             <p className="card-text">Cours en groupe pour enfants</p>
           </div>
-        </div>
-        <div className="card">
-          <img src={adults} className="card-img-top" alt="..." />
+        </Link>
+        <Link to="/adults" className="card">
+          <img src={adults} className="card-img-top" alt="Adult lessons" />
           <div className="card-body">
             <p className="card-text">
               Cours individuels pour adolescents et adultes
             </p>
           </div>
-        </div>
-        <div className="card">
-          <img src={online} className="card-img-top" alt="..." />
+        </Link>
+        <Link to="/online" className="card">
+          <img src={online} className="card-img-top" alt="Online lessons" />
           <div className="card-body">
             <p className="card-text">Cours en ligne</p>
           </div>
-        </div>
-        <div className="card">
-          <img src={application} className="card-img-top" alt="..." />
+        </Link>
+        <Link to="/application" className="card">
+          <img
+            src={application}
+            className="card-img-top"
+            alt="Family using mobile app"
+          />
           <div className="card-body">
             <p className="card-text">Application de vocabulaire Brizzle</p>
           </div>
-        </div>
-        <div className="card">
-          <img src={profile} className="card-img-top" alt="..." />
+        </Link>
+        <Link to="/profile" className="card">
+          <img
+            src={profile}
+            className="card-img-top"
+            alt="Georgina profile picture"
+          />
           <div className="card-body">
             <p className="card-text">À propos de votre professeur</p>
           </div>
-        </div>
-        <div className="card">
-          <img src={clifton} className="card-img-top" alt="..." />
+        </Link>
+        <Link to="/faq" className="card">
+          <img src={clifton} className="card-img-top" alt="Bristol" />
           <div className="card-body">
             <p className="card-text">FAQ</p>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   );
