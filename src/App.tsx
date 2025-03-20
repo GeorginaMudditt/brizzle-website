@@ -8,9 +8,9 @@ export default function App() {
   return (
     <div className="App">
       <Header />
-      <Georgina />
-      <Offerings />
 
+      <Offerings />
+      <Georgina />
       <Footer />
     </div>
   );

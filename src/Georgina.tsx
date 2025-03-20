@@ -4,7 +4,6 @@ import georgina from "./assets/profile.jpeg";
 export default function Georgina() {
   return (
     <div className="Georgina">
-      <h2>Présentation</h2>
       <div className="georgina-container">
         <div class-name="georgina-image">
           <img

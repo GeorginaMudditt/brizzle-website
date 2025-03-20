@@ -13,7 +13,16 @@ export default function Header() {
           </a>
         </div>
       </div>
-      <img className="logo" src={logo} alt="Brizzle square logo" />
+      <div className="header-container">
+        <div>
+          <img className="logo" src={logo} alt="Brizzle square logo" />
+        </div>
+        <div>
+          <h2 className="title">Application de vocabulaire anglais</h2>
+          <h2 className="title">Leçons d'anglais 83570</h2>
+          <h2 className="title">Cours d'anglais en ligne</h2>
+        </div>
+      </div>
     </div>
   );
 }

@@ -32,11 +32,22 @@
   margin-left: 10px;
 }
 
+.Header .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 50px;
+}
+
 .Header .logo {
   width: 350px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  margin: 80px auto;
-  display: block;
+  margin: 0 20px;
+}
+
+.Header .title {
+  color: #38438f;
 }
 
 @media (max-width: 768px) {
