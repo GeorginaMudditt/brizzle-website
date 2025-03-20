@@ -1,6 +1,5 @@
 import "./Header.css";
-import clifton from "./assets/clifton-suspension-houses.jpg";
-import logo from "./assets/brizzle-fb-cover.png";
+import logo from "./assets/brizzle-slogan.jpg";
 import { FaEnvelope } from "react-icons/fa";
 
 export default function Header() {
@@ -14,15 +13,7 @@ export default function Header() {
           </a>
         </div>
       </div>
-      <img
-        className="clifton-header"
-        src={clifton}
-        alt="Clifton Suspension Bridge"
-      />
       <img className="logo" src={logo} alt="Brizzle square logo" />
-      <div className="slogan">
-        Progressez en anglais, à votre rythme et en vous amusant !
-      </div>
     </div>
   );
 }

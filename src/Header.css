@@ -32,38 +32,12 @@
   margin-left: 10px;
 }
 
-.Header .clifton-header {
-  width: 100%;
-  margin-bottom: -60px;
-}
-
 .Header .logo {
-  width: 200px;
-  position: relative;
-  top: -20px;
-  z-index: 1;
+  width: 350px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.Header .slogan {
-  background-color: #38438f;
-  color: white;
-  margin-top: -28px;
-  padding: 10px;
-  font-size: 30px;
-  font-weight: 700;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  align-items: center;
-  text-align: center;
+  margin: 80px auto;
+  display: block;
 }
 
 @media (max-width: 768px) {
-  .Header .logo {
-    width: 150px;
-    top: 0;
-  }
-  .Header .slogan {
-    font-size: 12px;
-    margin-top: -10px;
-  }
 }
