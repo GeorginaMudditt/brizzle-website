@@ -15,8 +15,8 @@ export default function KidsPage() {
         <button onClick={closeModal} className="close-modal">
           &times;
         </button>
-        <h1>Cours en groupe pour enfants</h1>
-        <p>Details about kids' lessons...</p>
+        <h2>Cours en groupe pour enfants de 6 à 11 ans</h2>
+        <p>Details about kids' lessons ...</p>
       </div>
     </>
   );

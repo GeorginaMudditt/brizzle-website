@@ -14,15 +14,15 @@ export default function Offerings() {
         <Link to="/kids" className="card">
           <img src={kids} className="card-img-top" alt="Kids lessons" />
           <div className="card-body">
-            <p className="card-text">Cours en groupe pour enfants</p>
+            <p className="card-text">
+              Cours en groupe pour enfants de 6 à 11 ans
+            </p>
           </div>
         </Link>
         <Link to="/adults" className="card">
           <img src={adults} className="card-img-top" alt="Adult lessons" />
           <div className="card-body">
-            <p className="card-text">
-              Cours individuels pour adolescents et adultes
-            </p>
+            <p className="card-text">Cours individuels pour les plus grands</p>
           </div>
         </Link>
         <Link to="/online" className="card">

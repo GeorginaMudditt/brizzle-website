@@ -10,7 +10,7 @@
   justify-self: center;
   text-decoration: none;
   color: inherit;
-  border: 5px solid #38438f;
+  border: 5px double #c80f2d;
   border-radius: 10px;
   display: block;
 }
@@ -24,4 +24,5 @@
 .Offerings .card-text {
   color: #38438f;
   text-align: center;
+  font-weight: 500;
 }

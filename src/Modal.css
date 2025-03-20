@@ -2,34 +2,41 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background: rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
+  z-index: 999;
   visibility: visible;
   opacity: 1;
 }
 
 .modal {
-  background: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
   padding: 20px;
+  border: 5px solid #38438f;
   border-radius: 10px;
-  width: 50%;
-  max-width: 500px;
-  position: relative;
-  z-index: 1001;
+  width: 70%;
+  max-width: 600px;
+  z-index: 1000;
   display: block;
 }
 
 .close-modal {
   position: absolute;
   top: 10px;
-  right: 15px;
+  right: 10px;
   font-size: 20px;
   background: none;
   border: none;
   cursor: pointer;
+  color: #38438f;
+}
+
+h2 {
+  color: #38438f;
+  font-size: 20px;
 }
