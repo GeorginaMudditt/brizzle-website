@@ -41,13 +41,14 @@
 }
 
 .Header .logo {
-  width: 400px;
+  width: 500px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin: 0 20px;
 }
 
 .Header .title {
   color: #38438f;
+  font-size: 40px;
 }
 
 @media (max-width: 768px) {

@@ -2,7 +2,7 @@ import "./Offerings.css";
 import { Link } from "react-router-dom";
 import kids from "./assets/kids-lesson.jpg";
 import adults from "./assets/adult-learning.jpg";
-import profile from "./assets/profile.jpeg";
+import blackboard from "./assets/blackboard.jpg";
 import clifton from "./assets/clifton-suspension-houses.jpg";
 import online from "./assets/online-lesson.jpg";
 import application from "./assets/application.jpg";
@@ -43,7 +43,7 @@ export default function Offerings() {
         </Link>
         <Link to="/profile" className="card">
           <img
-            src={profile}
+            src={blackboard}
             className="card-img-top"
             alt="Georgina profile picture"
           />
