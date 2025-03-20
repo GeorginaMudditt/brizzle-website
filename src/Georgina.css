@@ -1,3 +1,22 @@
-.Georgina {
-  background-color: green;
+.Georgina h2 {
+  color: #38438f;
+  text-align: center;
+}
+
+.Georgina .offerings-container {
+  display: flex;
+  justify-content: center;
+}
+
+.Georgina .georgina-pic {
+  border: 5px solid #ba3527;
+  max-height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 0 20px;
+}
+
+.Georgina .georgina-intro {
+  font-size: 15px;
+  margin: 20px;
 }

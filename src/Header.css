@@ -1,6 +1,5 @@
 .Header .top-bar {
-  background-color: #c8c3b7;
-  background-image: url("../src/assets/brushed-alum-dark.png");
+  background-color: #38438f;
   padding: 10px;
   position: fixed;
   top: 0;
@@ -13,10 +12,20 @@
 .Header .email-container {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.Header .email-icon {
+  color: white;
+  font-size: 20px;
+}
+
+.Header a {
+  color: white;
 }
 
 .Header .email-address {
-  color: black;
+  color: "white";
   cursor: pointer;
   font-size: 20px;
   font-weight: 700;

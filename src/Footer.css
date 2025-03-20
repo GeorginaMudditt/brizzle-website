@@ -1,3 +1,28 @@
 .Footer {
-  background-color: yellow;
+  background-image: url("./assets/clifton-suspension.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Footer .footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Footer .footer-box {
+  background-color: #38438f;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  margin-top: 150px;
+  width: 20%;
+  text-align: center;
+}
+
+.Footer a {
+  color: white;
+  cursor: pointer;
 }

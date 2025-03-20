@@ -8,9 +8,9 @@ export default function Header() {
     <div className="Header">
       <div className="top-bar">
         <div className="email-container">
-          <FaEnvelope />
-          <a href="mailto:g.k.mudditt@gmail.com">
-            <div className="email-address">g.k.mudditt@gmail.com</div>
+          <FaEnvelope className="email-icon" />
+          <a href="mailto:hello@brizzle-english.com">
+            <div className="email-address">hello@brizzle-english.com</div>
           </a>
         </div>
       </div>
