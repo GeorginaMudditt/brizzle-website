@@ -33,6 +33,10 @@ export default function KidsPage() {
           Cours d'une heure 16h45 à 17h45, d'avril 2025 à juillet 2025
         </p>
         <p className="modal-text">
+          <FaCalendarAlt className="icon" />
+          Inscription jusqu'à 12 avril 2025
+        </p>
+        <p className="modal-text">
           <FaLocationDot className="icon" />
           83570 Carcès
         </p>
@@ -63,7 +67,9 @@ export default function KidsPage() {
           <FaEuroSign className="icon" />
           110€ par enfant
         </p>
-        <button className="button no-margin">Inscription : Groupe 1</button>
+        <a href="mailto:hello@brizzle-english.com?subject=Pré-inscription aux cours d'anglais pour enfants : Groupe 1">
+          <button className="button no-margin">Pré-inscription</button>
+        </a>
         <p className="question modal-text">Groupe 2</p>
         <p className="modal-text">
           <IoMdSchool className="icon" />
@@ -83,7 +89,9 @@ export default function KidsPage() {
           <FaEuroSign className="icon" />
           80€ par enfant
         </p>
-        <button className="button no-margin">Inscription : Groupe 2</button>
+        <a href="mailto:hello@brizzle-english.com?subject=Pré-inscription aux cours d'anglais pour enfants : Groupe 2">
+          <button className="button no-margin">Pré-inscription</button>
+        </a>
         <p className="question modal-text">Groupe 3</p>
         <p className="modal-text">
           <IoMdSchool className="icon" />
@@ -103,7 +111,9 @@ export default function KidsPage() {
           <FaEuroSign className="icon" />
           90€ par enfant
         </p>
-        <button className="button no-margin">Inscription : Groupe 3</button>
+        <a href="mailto:hello@brizzle-english.com?subject=Pré-inscription aux cours d'anglais pour enfants : Groupe 3">
+          <button className="button no-margin">Pré-inscription</button>
+        </a>
       </div>
     </>
   );
