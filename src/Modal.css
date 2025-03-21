@@ -117,4 +117,7 @@ h2 {
     font-size: 12px;
     text-align: center;
   }
+  .kids-text {
+    text-align: left;
+  }
 }
