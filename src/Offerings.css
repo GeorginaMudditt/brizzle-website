@@ -26,3 +26,9 @@
   text-align: center;
   font-weight: 500;
 }
+
+@media (max-width: 576px) {
+  .Offerings .offerings-container {
+    grid-template-columns: 1fr;
+  }
+}

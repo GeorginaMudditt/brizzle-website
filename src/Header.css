@@ -52,4 +52,29 @@
 }
 
 @media (max-width: 768px) {
+  .Header .header-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .Header .logo {
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
+  }
+
+  .Header .title {
+    color: #38438f;
+    font-size: 30px;
+    justify-self: center;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .Header .email-icon {
+    font-size: 15px;
+  }
+  .Header .email-address {
+    font-size: 15px;
+  }
 }
