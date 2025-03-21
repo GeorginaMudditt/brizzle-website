@@ -5,7 +5,7 @@ import adults from "./assets/adult-learning.jpg";
 import blackboard from "./assets/blackboard.jpg";
 import clifton from "./assets/clifton-suspension-houses.jpg";
 import online from "./assets/online-lesson.jpg";
-import application from "./assets/brizzle-app-screenshot.png";
+import application from "./assets/application.jpg";
 
 export default function Offerings() {
   return (
