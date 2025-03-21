@@ -80,6 +80,38 @@ h2 {
   margin-right: 10px;
 }
 
+.dates-button {
+  position: relative;
+  cursor: pointer;
+}
+
+.dates-button::after {
+  content: attr(data-dates);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #38438f;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  font-size: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 10;
+  width: max-content;
+  max-width: 200px;
+  text-align: center;
+}
+
+.dates-button:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
 @media (max-width: 576px) {
   .modal-text {
     font-size: 12px;

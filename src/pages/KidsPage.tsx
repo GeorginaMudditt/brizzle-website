@@ -13,7 +13,7 @@ export default function KidsPage() {
   const navigate = useNavigate();
 
   function closeModal() {
-    setTimeout(() => navigate("/"), 0); // Delay navigation slightly
+    setTimeout(() => navigate("/"), 0);
   }
 
   return (
@@ -52,7 +52,12 @@ export default function KidsPage() {
         <p className="modal-text">
           <FaCalendarAlt className="icon" />
           Mardis (11 semaines)
-          <button className="button">Voir les dates</button>
+          <button
+            className="button dates-button"
+            data-dates="22 avril, 29 avril, 06 mai, 13 mai, 20 mai, 27 mai, 03 juin, 10 juin, 17 juin, 24 juin, 01 juillet"
+          >
+            Voir les dates
+          </button>
         </p>
         <p className="modal-text">
           <FaEuroSign className="icon" />
@@ -67,7 +72,12 @@ export default function KidsPage() {
         <p className="modal-text">
           <FaCalendarAlt className="icon" />
           Jeudis (8 semaines)
-          <button className="button">Voir les dates</button>
+          <button
+            className="button dates-button"
+            data-dates="24 avril, 15 mai, 22 mai, 05 juin, 12 juin, 19 juin, 26 juin, 03 juillet"
+          >
+            Voir les dates
+          </button>
         </p>
         <p className="modal-text">
           <FaEuroSign className="icon" />
@@ -82,7 +92,12 @@ export default function KidsPage() {
         <p className="modal-text">
           <FaCalendarAlt className="icon" />
           Vendredis (9 semaines)
-          <button className="button">Voir les dates</button>
+          <button
+            className="button dates-button"
+            data-dates="25 avril, 02 mai, 09 mai, 16 mai, 23 mai, 06 juin, 20 juin, 27 juin, 04 juillet"
+          >
+            Voir les dates
+          </button>
         </p>
         <p className="modal-text">
           <FaEuroSign className="icon" />
