@@ -39,4 +39,23 @@
 h2 {
   color: #38438f;
   font-size: 24px;
+  text-align: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+.modal-text {
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+@media (max-width: 576px) {
+  .modal-text {
+    font-size: 12px;
+    text-align: center;
+  }
 }
