@@ -49,6 +49,7 @@
 .Header .title {
   color: #38438f;
   font-size: 40px;
+  text-align: left;
 }
 
 @media (max-width: 768px) {
