@@ -1,11 +1,12 @@
 import "../Modal.css";
 import { useNavigate } from "react-router-dom";
+import applicatiion from "../assets/brizzle-app-screenshot.png";
 
 export default function ApplicationPage() {
   const navigate = useNavigate();
 
   function closeModal() {
-    setTimeout(() => navigate("/"), 0); // Delay navigation slightly
+    setTimeout(() => navigate("/"), 0);
   }
 
   return (
@@ -16,7 +17,32 @@ export default function ApplicationPage() {
           &times;
         </button>
         <h2>Application de vocabulaire Brizzle</h2>
-        <p>Details about application ...</p>
+        <img
+          src={applicatiion}
+          className="app-pic"
+          alt="Screenshot of mobile app"
+        />
+        <p className="modal-text">
+          Je suis en train de développer une application de vocabulaire en
+          anglais qui sera disponible à l'achat sur le Google Play Store et
+          l'Apple App Store en septembre 2025.
+          <br />
+          <br /> L'application comportera 6 niveaux de langue différents
+          conformément au{" "}
+          <a
+            href="https://rm.coe.int/16802fc3a8"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Cadre Européen Commun de Référence pour les Langues (CECRL)
+          </a>
+          .
+          <br />
+          <br />
+          Les élèves qui s'inscriront à des cours avec moi (en présentiel ou en
+          ligne) bénéficieront d'un accès gratuit à cette application avant
+          qu'elle ne soit disponible au grand public !
+        </p>
       </div>
     </>
   );

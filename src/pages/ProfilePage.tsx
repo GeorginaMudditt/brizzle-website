@@ -6,7 +6,7 @@ export default function ProfilePage() {
   const navigate = useNavigate();
 
   function closeModal() {
-    setTimeout(() => navigate("/"), 0); // Delay navigation slightly
+    setTimeout(() => navigate("/"), 0);
   }
 
   return (
