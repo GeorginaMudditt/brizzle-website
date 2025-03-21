@@ -19,7 +19,7 @@ export default function Header() {
         </div>
         <div>
           <h2 className="title">Cours d'anglais</h2>
-          <h2 className="title">Carcès, 83570</h2>
+          <h2 className="title">83570 Carcès</h2>
         </div>
       </div>
     </div>

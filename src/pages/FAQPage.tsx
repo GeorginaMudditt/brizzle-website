@@ -35,6 +35,13 @@ export default function FAQPage() {
           supplémentaires et des devoirs.
         </p>
         <p className="question modal-text">
+          Dois-je fournir du matériel pour le cours ?
+        </p>
+        <p className="answer modal-text">
+          Non. Tout le matériel nécessaire (par exemple, classeurs, photocopies,
+          stylos) est fourni.
+        </p>
+        <p className="question modal-text">
           Puis-je rester avec mon enfant pendant qu'il/elle suit son cours ?
         </p>
         <p className="answer modal-text">
