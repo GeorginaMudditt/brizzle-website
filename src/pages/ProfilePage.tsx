@@ -23,10 +23,9 @@ export default function ProfilePage() {
           alt="Georgina, your teacher"
         />
         <p className="modal-text">
-          Je m'appelle Georgina et je suis une native anglaise originaire de
-          Bristol, dans le sud-ouest de l'Angleterre. J'habite à Carcès, dans la
-          région du Var en France, depuis 2020 avec mon mari français et nos
-          deux enfants.
+          Je m'appelle Georgina et je viens de Bristol, dans le sud-ouest de
+          l'Angleterre. J'habite à Carcès, dans la région du Var en France,
+          depuis 2020 avec mon mari français et nos deux enfants.
           <br />
           <br />
           Je suis enseignante diplômée d'ESOL (English to Speakers of Other
@@ -42,9 +41,8 @@ export default function ProfilePage() {
           Je suis passionnée par l'enseignement de l'anglais et j'aime rendre
           les leçons captivantes, interactives et pertinentes. Je suis flexible
           et m'adapte aux besoins des élèves, je communique clairement leurs
-          progrès et je suis patiente et supportive, permettant aux apprenants
-          de développer leurs compétences confortablement et à leur propre
-          rythme.
+          progrès et je suis patiente et encourageante, permettant aux
+          apprenants de développer leurs compétences à leur propre rythme.
         </p>
       </div>
     </>

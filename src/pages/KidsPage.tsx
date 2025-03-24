@@ -46,7 +46,7 @@ export default function KidsPage() {
         </p>
         <p className="modal-text kids-text">
           <FaChalkboardTeacher className="icon" />
-          Apprenez avec une locutrice native
+          Apprenez avec une professeure native d'anglais
         </p>
         <h3>Groupe 1</h3>
         <a href="mailto:hello@brizzle-english.com?subject=Pré-inscription aux cours d'anglais pour enfants : Groupe 1">

@@ -39,9 +39,9 @@ export default function ApplicationPage() {
           .
           <br />
           <br />
-          Les élèves qui s'inscriront à des cours avec moi (en présentiel ou en
-          ligne) bénéficieront d'un accès gratuit à cette application avant
-          qu'elle ne soit disponible au grand public !
+          Les élèves qui s'inscriront à mes cours (en présentiel ou en ligne)
+          bénéficieront d'un accès gratuit à cette application avant qu'elle ne
+          soit disponible au grand public !
         </p>
       </div>
     </>
