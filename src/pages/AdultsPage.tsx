@@ -1,11 +1,15 @@
 import "../Modal.css";
 import { useNavigate } from "react-router-dom";
+import { FaPerson } from "react-icons/fa6";
+import { FaRegClock } from "react-icons/fa";
+import { FaEuroSign } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 
 export default function AdultsPage() {
   const navigate = useNavigate();
 
   function closeModal() {
-    setTimeout(() => navigate("/"), 0); // Delay navigation slightly
+    setTimeout(() => navigate("/"), 0);
   }
 
   return (
@@ -18,7 +22,70 @@ export default function AdultsPage() {
         <h2>
           Cours individuels pour étudiants au collège, adolescents et adultes :{" "}
         </h2>
-        <p>Details about adults' lessons ...</p>
+        <p className="modal-text kids-text">
+          <FaPerson className="icon" />
+          Cours particulier pour 1 ou 2 personnes
+        </p>
+        <p className="modal-text kids-text">
+          <FaRegClock className="icon" />
+          Cours d'une heure, horaires flexibles disponibles
+        </p>
+        <p className="modal-text kids-text">
+          <FaLocationDot className="icon" />
+          83570 Carcès
+        </p>
+        <p className="modal-text kids-text">
+          <FaEuroSign className="icon" />
+          40€ par heure
+        </p>
+        <h3>Réserver un cours</h3>
+        <p className="modal-text">
+          Pour réserver un cours, simplement vérifiez les créneaux disponibles
+          sur{" "}
+          <a
+            href="https://calendly.com/hello-brizzle-english/30min"
+            target="_blank"
+            rel="noreferrer"
+          >
+            mon calendrier
+          </a>
+          . Un paiement sécurisé par carte bancaire vous sera demandé pour
+          confirmer la réservation.
+        </p>
+        <p className="modal-text">
+          J'offre une réduction de 25 % aux étudiants réservant au moins dix
+          cours d'une heure. Ainsi, dix cours réservés ensemble coûteront 300 €
+          (au lieu de 400 € si réservés un par un).{" "}
+          <a href="mailto:hello@brizzle-english.com?subject=Réserver une série de cours individuels">
+            Contactez-moi
+          </a>{" "}
+          pour réserver ou pour toute vos questions supplémentaires.
+        </p>
+        <h3>Contenu des cours</h3>
+        <p className="modal-text">
+          Ces cours sont adaptés à vos besoins. Si vous souhaitez travailler une
+          compétence particulière (par exemple, l'expression orale, la lecture
+          ou la grammaire), nous pourrons nous concentrer principalement sur cet
+          aspect.
+        </p>
+        <p className="modal-text">
+          Je peux également vous aider à préparer un examen, comme le brevet, le
+          bac ou l’IELTS.
+        </p>
+        <p className="modal-text">
+          Si vous avez des besoins spécifiques, je peux concevoir des cours en
+          fonction de votre métier ou de vos centres d'intérêt, par exemple
+          l'anglais pour l'industrie du vin ou l'anglais pour le voyage.
+        </p>
+        <a
+          href="https://calendly.com/hello-brizzle-english/30min"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="button no-margin">
+            Réserver un cours d'une heure
+          </button>
+        </a>
       </div>
     </>
   );
