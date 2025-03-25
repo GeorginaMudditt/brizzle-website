@@ -49,9 +49,9 @@ export default function KidsPage() {
           Apprenez avec une professeure native d'anglais
         </p>
         <h3>Groupe 1</h3>
-        <a href="mailto:hello@brizzle-english.com?subject=Pré-inscription aux cours d'anglais pour enfants : Groupe 1">
-          <button className="button no-margin">Pré-inscription</button>
-        </a>
+        {/* <a href="mailto:hello@brizzle-english.com?subject=Pré-inscription aux cours d'anglais pour enfants : Groupe 1"> */}
+        <button className="button button-red no-margin">Complet</button>
+        {/* </a> */}
         <p className="modal-text kids-text">
           <IoMdSchool className="icon" />
           CP, CE1 & CE2

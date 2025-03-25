@@ -52,6 +52,10 @@ h2 {
   cursor: pointer;
 }
 
+.button-red {
+  background-color: #ba3627;
+}
+
 .dates-button {
   position: relative;
   color: #38438f;
