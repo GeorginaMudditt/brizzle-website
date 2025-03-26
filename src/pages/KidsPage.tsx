@@ -100,7 +100,7 @@ export default function KidsPage() {
         </a>
         <p className="modal-text kids-text">
           <IoMdSchool className="icon" />
-          CM1 & CM2
+          CE2, CM1 & CM2
         </p>
         <p className="modal-text kids-text">
           <FaCalendarAlt className="icon" />
