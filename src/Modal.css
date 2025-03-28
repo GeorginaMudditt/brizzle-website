@@ -58,9 +58,10 @@ h2 {
 
 .dates-button {
   position: relative;
+  background-color: #ffffff;
   color: #38438f;
   padding: 5px;
-  border: 1px sold #38438f;
+  border: 1px solid #38438f;
   border-radius: 5px;
   cursor: pointer;
   margin-left: 8px;
