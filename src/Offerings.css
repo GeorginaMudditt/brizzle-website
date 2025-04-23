@@ -1,11 +1,11 @@
 .Offerings {
-  background-color: #38438f;
+  background-color: #ccd0eb;
   background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
   padding: 20px;
 }
 
 .Offerings h1 {
-  color: white;
+  color: #38438f;
   text-align: center;
   font-size: 30px;
   padding: 20px 0 20px 0;

@@ -1,5 +1,5 @@
 .Header .top-bar {
-  background-color: #38438f;
+  background-color: #ccd0eb;
   display: flex;
   justify-content: space-around;
   padding: 10px;
@@ -24,12 +24,12 @@
 }
 
 .Header .email-icon {
-  color: white;
+  color: #364089;
   font-size: 20px;
 }
 
 .Header a {
-  color: white;
+  color: #364089;
 }
 
 .Header .email-address {
@@ -42,6 +42,7 @@
 
 .Header .square-logo {
   width: 50px;
+  border-radius: 50%;
 }
 
 .Header .hero {
