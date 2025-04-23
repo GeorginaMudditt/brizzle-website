@@ -2,8 +2,6 @@ import "./Offerings.css";
 import { Link } from "react-router-dom";
 import kids from "./assets/kids-lesson.jpg";
 import adults from "./assets/adult-learning.jpg";
-import blackboard from "./assets/blackboard.jpg";
-import clifton from "./assets/clifton-suspension-houses.jpg";
 import online from "./assets/online-lesson.jpg";
 import application from "./assets/application.jpg";
 
@@ -39,22 +37,6 @@ export default function Offerings() {
           />
           <div className="card-body">
             <p className="card-text">Application de vocabulaire Brizzle</p>
-          </div>
-        </Link>
-        <Link to="/profile" className="card">
-          <img
-            src={blackboard}
-            className="card-img-top"
-            alt="Georgina profile picture"
-          />
-          <div className="card-body">
-            <p className="card-text">À propos de votre professeur</p>
-          </div>
-        </Link>
-        <Link to="/faq" className="card">
-          <img src={clifton} className="card-img-top" alt="Bristol" />
-          <div className="card-body">
-            <p className="card-text">FAQ</p>
           </div>
         </Link>
       </div>

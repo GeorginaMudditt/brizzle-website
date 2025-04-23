@@ -1,6 +1,7 @@
 import "./Header.css";
 import logo from "./assets/brizzle-slogan.jpg";
 import { FaEnvelope } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 export default function Header() {
   return (
@@ -10,6 +11,16 @@ export default function Header() {
           <FaEnvelope className="email-icon" />
           <a href="mailto:hello@brizzle-english.com">
             <div className="email-address">hello@brizzle-english.com</div>
+          </a>
+        </div>
+        <div className="social-media-container">
+          <FaFacebook className="email-icon" />
+          <a
+            href="https://www.facebook.com/profile.php?id=61574983478329"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="email-address">Brizzle Facebook</div>
           </a>
         </div>
       </div>
