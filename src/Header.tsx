@@ -8,14 +8,13 @@ export default function Header() {
   return (
     <div className="Header">
       <div className="top-bar">
-        <img src={square} alt="Brizzle square logo" className="square-logo" />
         <div className="email-container">
           <FaEnvelope className="email-icon" />
           <a href="mailto:hello@brizzle-english.com">
             <div className="email-address">hello@brizzle-english.com</div>
           </a>
         </div>
-
+        <img src={square} alt="Brizzle square logo" className="square-logo" />
         <div className="social-media-container">
           <FaFacebook className="email-icon" />
           <a

@@ -8,6 +8,7 @@ import application from "./assets/application.jpg";
 export default function Offerings() {
   return (
     <div className="Offerings">
+      <h1>Trouver un programme</h1>
       <div className="offerings-container">
         <Link to="/kids" className="card">
           <img src={kids} className="card-img-top" alt="Kids lessons" />

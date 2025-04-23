@@ -1,8 +1,20 @@
+.Offerings {
+  background-color: #38438f;
+  background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
+  padding: 20px;
+}
+
+.Offerings h1 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px 0 20px 0;
+}
+
 .Offerings .offerings-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
-  margin: 50px;
 }
 
 .Offerings .card {
@@ -10,7 +22,6 @@
   justify-self: center;
   text-decoration: none;
   color: inherit;
-  border: 5px double #c80f2d;
   border-radius: 10px;
   display: block;
 }
