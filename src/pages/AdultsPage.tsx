@@ -19,7 +19,7 @@ export default function AdultsPage() {
         <button onClick={closeModal} className="close-modal">
           &times;
         </button>
-        <h2>Cours individuels pour adultes </h2>
+        <h2>L'anglais pour adultes </h2>
         <p className="modal-text kids-text">
           <FaPerson className="icon" />
           Cours particuliers pour 1 ou 2 personnes
