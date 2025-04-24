@@ -13,21 +13,19 @@ export default function Offerings() {
         <Link to="/kids" className="card">
           <img src={kids} className="card-img-top" alt="Kids lessons" />
           <div className="card-body">
-            <p className="card-text">
-              Cours en groupe pour enfants de 6 à 11 ans
-            </p>
+            <p className="card-text">Enfants</p>
           </div>
         </Link>
         <Link to="/adults" className="card">
           <img src={adults} className="card-img-top" alt="Adult lessons" />
           <div className="card-body">
-            <p className="card-text">Cours individuels pour les plus grands</p>
+            <p className="card-text">Adultes</p>
           </div>
         </Link>
         <Link to="/online" className="card">
           <img src={online} className="card-img-top" alt="Online lessons" />
           <div className="card-body">
-            <p className="card-text">Cours en ligne</p>
+            <p className="card-text">En ligne</p>
           </div>
         </Link>
         <Link to="/application" className="card">
@@ -37,7 +35,7 @@ export default function Offerings() {
             alt="Family using mobile app"
           />
           <div className="card-body">
-            <p className="card-text">Application de vocabulaire Brizzle</p>
+            <p className="card-text">App</p>
           </div>
         </Link>
       </div>
