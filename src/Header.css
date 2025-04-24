@@ -1,5 +1,5 @@
 .Header .top-bar {
-  background-color: #ccd0eb;
+  background-color: whitesmoke;
   display: flex;
   justify-content: space-around;
   padding: 10px;
@@ -32,14 +32,6 @@
   color: #364089;
 }
 
-.Header .email-address {
-  color: "white";
-  cursor: pointer;
-  font-size: 20px;
-  font-weight: 700;
-  margin-left: 10px;
-}
-
 .Header .square-logo {
   width: 50px;
   border-radius: 50%;
@@ -50,42 +42,9 @@
   margin-top: 40px;
 }
 
-.Header .logo {
-  width: 500px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  margin: 0 20px;
-}
-
-.Header .title {
-  color: #38438f;
-  font-size: 40px;
-  text-align: left;
-}
-
 @media (max-width: 768px) {
-  .Header .header-container {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .Header .logo {
-    width: 300px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    display: block;
-    margin: 0 auto;
-  }
-
-  .Header .title {
-    color: #38438f;
-    font-size: 30px;
-    justify-self: center;
-    margin-top: 20px;
-  }
-}
-@media (max-width: 576px) {
-  .Header .email-icon {
-    font-size: 15px;
-  }
-  .Header .email-address {
-    font-size: 15px;
+  .Header .hero {
+    height: 300px;
+    object-fit: cover;
   }
 }
