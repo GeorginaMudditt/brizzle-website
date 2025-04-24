@@ -19,12 +19,10 @@ export default function AdultsPage() {
         <button onClick={closeModal} className="close-modal">
           &times;
         </button>
-        <h2>
-          Cours individuels pour étudiants au collège, adolescents et adultes :{" "}
-        </h2>
+        <h2>Cours individuels pour adultes </h2>
         <p className="modal-text kids-text">
           <FaPerson className="icon" />
-          Cours particulier pour 1 ou 2 personnes
+          Cours particuliers pour 1 ou 2 personnes
         </p>
         <p className="modal-text kids-text">
           <FaRegClock className="icon" />
@@ -36,27 +34,22 @@ export default function AdultsPage() {
         </p>
         <p className="modal-text kids-text">
           <FaEuroSign className="icon" />
-          40€ par heure
+          40 € par heure
         </p>
         <h3>Réserver un cours</h3>
         <p className="modal-text">
-          Pour réserver un cours, simplement vérifiez les créneaux disponibles
-          sur{" "}
-          <a
-            href="https://calendly.com/hello-brizzle-english/30min"
-            target="_blank"
-            rel="noreferrer"
-          >
-            mon calendrier
-          </a>
-          . Un paiement sécurisé par carte bancaire vous sera demandé pour
-          confirmer la réservation.
+          Vous pouvez réserver autant ou aussi peu de cours particuliers que
+          vous le souhaitez, à un horaire qui vous convient. J’ai de nombreux
+          créneaux disponibles en journée les lundis, mardis, jeudis et
+          vendredis, et quelques créneaux en soirée et le week-end.
         </p>
         <p className="modal-text">
           J'offre une réduction de 25 % aux étudiants réservant au moins dix
           cours d'une heure. Ainsi, dix cours réservés ensemble coûteront 300 €
-          (au lieu de 400 € si réservés un par un).{" "}
-          <a href="mailto:hello@brizzle-english.com?subject=Réserver une série de cours individuels">
+          (au lieu de 400 € si réservés un par un).
+        </p>
+        <p className="modal-text">
+          <a href="mailto:hello@brizzle-english.com?subject=Réservation de cours individuels">
             Contactez-moi
           </a>{" "}
           pour réserver ou pour toute vos questions supplémentaires.
@@ -69,23 +62,13 @@ export default function AdultsPage() {
           aspect.
         </p>
         <p className="modal-text">
-          Je peux également vous aider à préparer un examen, comme le brevet, le
-          bac ou l’IELTS.
+          Je peux également vous aider à préparer un examen, comme l’IELTS.
         </p>
         <p className="modal-text">
           Si vous avez des besoins spécifiques, je peux concevoir des cours en
           fonction de votre métier ou de vos centres d'intérêt, par exemple
           l'anglais pour l'industrie du vin ou l'anglais pour le voyage.
         </p>
-        <a
-          href="https://calendly.com/hello-brizzle-english/30min"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <button className="button no-margin">
-            Réserver un cours d'une heure
-          </button>
-        </a>
       </div>
     </>
   );

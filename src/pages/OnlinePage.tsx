@@ -34,27 +34,22 @@ export default function OnlinePage() {
         </p>
         <p className="modal-text kids-text">
           <FaEuroSign className="icon" />
-          40€ par heure
+          40 € par heure
         </p>
         <h3>Réserver un cours</h3>
         <p className="modal-text">
-          Pour réserver un cours, simplement vérifiez les créneaux disponibles
-          sur{" "}
-          <a
-            href="https://calendly.com/hello-brizzle-english/cours-d-anglais-en-ligne"
-            target="_blank"
-            rel="noreferrer"
-          >
-            mon calendrier
-          </a>
-          . Un paiement sécurisé par carte bancaire vous sera demandé pour
-          confirmer la réservation.
+          Vous pouvez réserver autant ou aussi peu de cours particuliers que
+          vous le souhaitez, à un horaire qui vous convient. J’ai de nombreux
+          créneaux disponibles en journée les lundis, mardis, jeudis et
+          vendredis, et quelques créneaux en soirée et le week-end.
         </p>
         <p className="modal-text">
           J'offre une réduction de 25 % aux étudiants réservant au moins dix
           cours d'une heure. Ainsi, dix cours réservés ensemble coûteront 300 €
-          (au lieu de 400 € si réservés un par un).{" "}
-          <a href="mailto:hello@brizzle-english.com?subject=Réserver une série de cours en ligne individuels">
+          (au lieu de 400 € si réservés un par un).
+        </p>
+        <p className="modal-text">
+          <a href="mailto:hello@brizzle-english.com?subject=Réservation de cours en ligne">
             Contactez-moi
           </a>{" "}
           pour réserver ou pour toute vos questions supplémentaires.

@@ -40,7 +40,7 @@ h2 {
   color: #38438f;
   font-size: 24px;
   text-align: center;
-  margin: 0 30px;
+  margin-bottom: 20px;
 }
 
 .button {
@@ -92,8 +92,13 @@ h2 {
 }
 h3 {
   margin-top: 30px;
-  font-weight: 600;
+  font-size: 21px;
   color: #ba3627;
+}
+
+h4 {
+  font-size: 18px;
+  color: #38438f;
 }
 
 .dates-button::after {

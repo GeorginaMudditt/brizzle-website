@@ -24,7 +24,7 @@ export default function FAQPage() {
           vous enverrai l'adresse. Il y a également une option pour des cours en
           ligne via Google Meet.
         </p>
-        <p className="question modal-text">
+        {/* <p className="question modal-text">
           J'ai un enfant dans le groupe d'âge plus jeune (CP/CE1/CE2).
           Peut-il/elle venir aux cours le mardi et le jeudi ?
         </p>
@@ -33,7 +33,7 @@ export default function FAQPage() {
           jeudi. Si vous souhaitez que votre enfant ait plus de pratique pendant
           la semaine, je serai heureuse de fournir des ressources
           supplémentaires et des devoirs.
-        </p>
+        </p> */}
         <p className="question modal-text">
           Dois-je fournir du matériel pour le cours ?
         </p>
