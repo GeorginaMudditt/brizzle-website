@@ -44,6 +44,6 @@
 @media (max-width: 576px) {
   .Offerings .offerings-container {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 60px;
   }
 }
