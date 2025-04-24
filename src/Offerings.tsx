@@ -1,6 +1,6 @@
 import "./Offerings.css";
 import { Link } from "react-router-dom";
-import kids from "./assets/kids-lesson.jpg";
+import kids from "./assets/children.jpg";
 import adults from "./assets/adult-learning.jpg";
 import online from "./assets/online-lesson.jpg";
 import application from "./assets/application.jpg";

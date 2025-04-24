@@ -4,7 +4,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin: 0;
-  padding: 0;
+  padding: 20px 0;
   width: 100vw;
   position: relative;
   left: 0;

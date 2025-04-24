@@ -6,7 +6,7 @@
 .Offerings h1 {
   color: #38438f;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
   padding: 20px 0 20px 0;
 }
@@ -14,6 +14,8 @@
 .Offerings .offerings-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 100px;
+  margin-top: 50px;
 }
 
 .Offerings .card {

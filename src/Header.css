@@ -25,7 +25,7 @@
 
 .Header .email-icon {
   color: #364089;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .Header a {
@@ -33,7 +33,7 @@
 }
 
 .Header .square-logo {
-  width: 50px;
+  width: 80px;
   border-radius: 50%;
 }
 
