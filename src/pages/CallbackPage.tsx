@@ -17,7 +17,7 @@ const CallbackPage = () => {
   }, []);
 
   return (
-    <p style={{ marginLeft: "2rem", fontSize: "1.5rem" }}>
+    <p style={{ marginLeft: "2rem", fontSize: "2rem" }}>
       Vérification de votre adresse e-mail ...
     </p>
   );
