@@ -16,7 +16,11 @@ const CallbackPage = () => {
     }
   }, []);
 
-  return <p>Verifying your email…</p>;
+  return (
+    <p style={{ marginLeft: "2rem", fontSize: "1.5rem" }}>
+      Vérification de votre adresse e-mail ...
+    </p>
+  );
 };
 
 export default CallbackPage;
