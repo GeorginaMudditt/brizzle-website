@@ -14,7 +14,7 @@ import OnlinePage from "./pages/OnlinePage";
 import ApplicationPage from "./pages/ApplicationPage";
 import ProfilePage from "./pages/ProfilePage";
 import FAQPage from "./pages/FAQPage";
-import CallbackPage from "./pages/CallbackPage";
+import WelcomePage from "./pages/WelcomePage";
 
 export default function App() {
   return (
@@ -22,7 +22,7 @@ export default function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/auth/callback" element={<CallbackPage />} />
+          <Route path="/auth/bienvenue" element={<WelcomePage />} />
           <Route path="*" element={<MainContentWithModals />} />
         </Routes>
         <Footer />
