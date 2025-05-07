@@ -7,6 +7,10 @@ import { FaRegSmile } from "react-icons/fa";
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { FaCalendarAlt } from "react-icons/fa";
 import { FaEuroSign } from "react-icons/fa";
+import { TiStopwatch } from "react-icons/ti";
+import { TbHexagonNumber1 } from "react-icons/tb";
+import { TbHexagonNumber2 } from "react-icons/tb";
+import { TbHexagonNumber3 } from "react-icons/tb";
 
 export default function KidsPage() {
   const navigate = useNavigate();
@@ -31,6 +35,50 @@ export default function KidsPage() {
           <FaRegSmile className="icon" />
           Cours ludiques et interactifs
         </p>
+        <h3>Inscriptions ouvertes : L’Été avec Brizzle</h3>
+        <h4>Deux semaines d’anglais pendant les vacances d’été</h4>
+        <p className="modal-text kids-text">
+          <FaCalendarAlt className="icon" />
+          28 juillet - 1 août 2025 / 4 - 8 août 2025
+        </p>
+        <p className="modal-text kids-text">
+          <FaChild className="icon" />6 - 11 ans
+        </p>
+        <p className="modal-text kids-text">
+          <FaChalkboardTeacher className="icon" />
+          Réservez une ou deux semaines pour votre enfant
+        </p>
+        <p className="modal-text kids-text">
+          <TiStopwatch className="icon" />
+          Inscriptions ouvertes jusqu’au 8 juillet 2025
+        </p>
+        <p className="modal-text kids-text">
+          <TbHexagonNumber1 className="icon" />
+          Étape 1 : Consultez les informations ci-dessous – et n’hésitez pas à
+          m’écrire par e-mail si vous avez des questions.
+        </p>
+        <p className="modal-text kids-text">
+          <TbHexagonNumber2 className="icon" />
+          Étape 2 : Inscrivez votre enfant en cliquant sur le lien ci-dessous.
+          Si vous inscrivez plusieurs enfants, merci de remplir un formulaire
+          différent pour chaque enfant.
+        </p>
+        <p className="modal-text kids-text">
+          <TbHexagonNumber3 className="icon" />
+          Étape 3 : Vous recevrez un e-mail de confirmation peu après
+          l’inscription, puis votre facture vous sera envoyée après le 8
+          juillet.
+        </p>
+        <a
+          href="https://ulrwcortyhassmytkcij.supabase.co/storage/v1/object/public/brizzle-logos//summer-flyer.png"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="button">En savoir plus</button>
+        </a>
+        <a href="https://tally.so/r/m69kKJ" target="_blank" rel="noreferrer">
+          <button className="button no-margin">S'inscrire</button>
+        </a>
         <h3>Disponible dès maintenant : cours particuliers</h3>
         <p className="modal-text kids-text">
           <FaChild className="icon" />
@@ -50,27 +98,7 @@ export default function KidsPage() {
           </a>{" "}
           pour plus d’informations.
         </p>
-        <h3>À venir : L’Été avec Brizzle</h3>
-        <h4>Deux semaines d’anglais pendant les vacances d’été</h4>
-        <p className="modal-text kids-text">
-          <FaCalendarAlt className="icon" />
-          28 juillet - 1 août 2025 / 4 - 8 août 2025
-        </p>
-        <p className="modal-text kids-text">
-          <FaChild className="icon" />6 - 11 ans
-        </p>
-        <p className="modal-text kids-text">
-          <FaChalkboardTeacher className="icon" />
-          Réservez une ou deux semaines pour votre enfant
-        </p>
-        <p>
-          <a href="mailto:hello@brizzle-english.com?subject=Demande d'informations sur l'Été avec Brizzle">
-            Envoyez-moi un e-mail
-          </a>{" "}
-          pour être ajouté à la liste de diffusion et être parmi les premiers
-          informés lorsque les détails et le programme seront disponibles à la
-          réservation.
-        </p>
+
         <h3>À venir : Nouvelles classes pour la rentrée</h3>
         <h4>Cours en groupe pour les enfants de 4 à 11 ans</h4>
         <p className="modal-text kids-text">

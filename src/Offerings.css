@@ -11,6 +11,17 @@
   padding: 20px 0 20px 0;
 }
 
+.Offerings h2 {
+  color: #ba3527;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 1px;
+}
+
+.Offerings a {
+  text-decoration: underline;
+  color: #ba3527;
+}
+
 .Offerings .offerings-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
