@@ -1,11 +1,22 @@
+import "../RedirectedFromApp.css";
+
 const WelcomePage = () => {
   return (
-    <div>
-      <h1>Bienvenue sur Brizzle</h1>
+    <div className="WelcomePage">
+      <h1>Félicitations ! Compte créé.</h1>
+      <h2>
+        Vous avez créé un compte avec succès sur l'application mobile de
+        Brizzle.
+      </h2>
+      <h2>
+        Nous espérons que vous apprécierez l'application et nous vous souhaitons
+        bonne chance pour gagner vos icônes !
+      </h2>
 
-      <p>Merci d'avoir choisi......</p>
-
-      <p>Vous pouvez maintenant ouvrir l'application Brizzle</p>
+      <p>
+        N'hésitez pas à nous contacter pour toute remarque concernant
+        l'application : <a>hello@brizzle-english.com</a>
+      </p>
 
       <a>App Store</a>
       <a>Google play</a>

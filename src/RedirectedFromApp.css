@@ -1,0 +1,22 @@
+.WelcomePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.WelcomePage h1 {
+  color: #38438f;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.WelcomePage h2 {
+  color: #ba3527;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 1px;
+}
+.WelcomePage a {
+  text-decoration: underline;
+  color: #ba3527;
+}
