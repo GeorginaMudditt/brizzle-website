@@ -3,18 +3,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
 }
 .WelcomePage h1 {
   color: #38438f;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 .WelcomePage h2 {
-  color: #ba3527;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  letter-spacing: 1px;
+  color: #38438f;
+  font-size: 35px;
+}
+.WelcomePage p {
+  color: #38438f;
+  font-size: 25px;
 }
 .WelcomePage a {
   text-decoration: underline;
