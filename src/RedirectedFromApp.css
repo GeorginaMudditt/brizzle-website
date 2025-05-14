@@ -31,3 +31,18 @@
   text-decoration: underline;
   color: #ba3527;
 }
+
+@media (max-width: 576px) {
+  .WelcomePage h1 {
+    font-size: 30px;
+  }
+  .WelcomePage h2 {
+    font-size: 25px;
+  }
+  .WelcomePage p {
+    font-size: 20px;
+  }
+  .WelcomePage a {
+    font-size: 20px;
+  }
+}
