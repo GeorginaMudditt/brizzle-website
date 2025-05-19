@@ -8,8 +8,8 @@ const WelcomePage = () => {
         src={Logo}
         alt="Brizzle Logo"
         className="WelcomePage__logo"
-        width={200}
-        height={200}
+        width={150}
+        height={150}
         style={{ borderRadius: 100, marginBottom: 20 }}
       />
       <h1>Félicitations 🎉 Compte créé 😊</h1>
