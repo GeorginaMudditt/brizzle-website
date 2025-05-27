@@ -49,7 +49,7 @@ export default function AdultsPage() {
           (au lieu de 400 € si réservés un par un).
         </p>
         <p className="modal-text">
-          <a href="mailto:hello@brizzle-english.com?subject=Réservation de cours individuels">
+          <a href="mailto:hello@brizzle-english.com?subject=Reservation de cours individuels">
             Contactez-moi
           </a>{" "}
           pour réserver ou pour toute vos questions supplémentaires.
