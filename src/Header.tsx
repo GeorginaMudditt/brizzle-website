@@ -2,7 +2,7 @@ import "./Header.css";
 import { FaEnvelope } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import square from "./assets/brizzle-insta-square.png";
-import hero from "./assets/hero2.png";
+import hero from "./assets/hero4.png";
 
 export default function Header() {
   return (
