@@ -1,0 +1,27 @@
+.GiftVoucher h2 {
+  margin-top: 20px;
+  color: #ba3527;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 1px;
+}
+
+.GiftVoucher p {
+  color: #38438f;
+  text-align: center;
+  font-weight: 700;
+}
+
+.GiftVoucher .button {
+  background-color: #38438f;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+.GiftVoucher .button:hover {
+  background-color: #ba3527;
+}

@@ -1,6 +1,7 @@
 import "./Header.css";
 import { FaEnvelope } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
+import { FaSquareInstagram } from "react-icons/fa6";
 import square from "./assets/brizzle-insta-square.png";
 import hero from "./assets/hero4.png";
 
@@ -21,6 +22,13 @@ export default function Header() {
             rel="noreferrer"
           >
             <FaFacebook className="email-icon" />
+          </a>
+          <a
+            href="https://www.instagram.com/brizzleenglish/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaSquareInstagram className="email-icon" />
           </a>
         </div>
       </div>
