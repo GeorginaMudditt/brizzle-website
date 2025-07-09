@@ -116,7 +116,7 @@ export default function KidsPage() {
         </p>
         <p className="modal-text kids-text">
           <FaCalendarAlt className="icon" />
-          Vendredis 16h45 à 17h45 : CE2 à CM2
+          Vendredis 16h45 à 17h45 (École Petit Bois, Carcès) : CE2 à CM2
         </p>
         <p className="modal-text kids-text">
           <FaChalkboardTeacher className="icon" />
