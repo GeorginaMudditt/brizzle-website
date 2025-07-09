@@ -7,10 +7,10 @@ import { FaRegSmile } from "react-icons/fa";
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { FaCalendarAlt } from "react-icons/fa";
 import { FaEuroSign } from "react-icons/fa";
-import { TiStopwatch } from "react-icons/ti";
-import { TbHexagonNumber1 } from "react-icons/tb";
-import { TbHexagonNumber2 } from "react-icons/tb";
-import { TbHexagonNumber3 } from "react-icons/tb";
+// import { TiStopwatch } from "react-icons/ti";
+// import { TbHexagonNumber1 } from "react-icons/tb";
+// import { TbHexagonNumber2 } from "react-icons/tb";
+// import { TbHexagonNumber3 } from "react-icons/tb";
 
 export default function KidsPage() {
   const navigate = useNavigate();
@@ -35,7 +35,7 @@ export default function KidsPage() {
           <FaRegSmile className="icon" />
           Cours ludiques et interactifs
         </p>
-        <h3>Inscriptions ouvertes : L’Été avec Brizzle</h3>
+        {/* <h3>Inscriptions ouvertes : L’Été avec Brizzle</h3>
         <h4>Deux semaines d’anglais pendant les vacances d’été</h4>
         <p className="modal-text kids-text">
           <FaCalendarAlt className="icon" />
@@ -78,7 +78,7 @@ export default function KidsPage() {
         </a>
         <a href="https://tally.so/r/m69kKJ" target="_blank" rel="noreferrer">
           <button className="button no-margin">S'inscrire</button>
-        </a>
+        </a> */}
         <h3>Disponible dès maintenant : cours particuliers</h3>
         <p className="modal-text kids-text">
           <FaChild className="icon" />
@@ -103,16 +103,16 @@ export default function KidsPage() {
         <h4>Cours en groupe pour les enfants de 4 à 11 ans</h4>
         <p className="modal-text kids-text">
           <FaCalendarAlt className="icon" />
-          Mercredis 9h15 à 10h15 : MS & GS
+          Mercredis 9h15 à 10h15 (Oustaou Per Touti, Carcès) : MS & GS
         </p>
         <p className="modal-text kids-text">
           <FaCalendarAlt className="icon" />
-          Mercredis 10h30 à 11h30 : CP à CM2 (pour les enfants non scolarisés à
-          Carcès)
+          Mercredis 10h30 à 11h30 (Oustaou Per Touti, Carcès): CP à CM2 (pour
+          les enfants non scolarisés à Carcès)
         </p>
         <p className="modal-text kids-text">
           <FaCalendarAlt className="icon" />
-          Jeudis 16h45 à 17h45 : CP à CE2
+          Jeudis 16h45 à 17h45 (École Petit Bois, Carcès): CP à CE2
         </p>
         <p className="modal-text kids-text">
           <FaCalendarAlt className="icon" />
@@ -120,7 +120,7 @@ export default function KidsPage() {
         </p>
         <p className="modal-text kids-text">
           <FaChalkboardTeacher className="icon" />
-          14 semaines de cours, de septembre à décembre 2025
+          13 ou 14 semaines de cours, de septembre à décembre 2025
         </p>
         <p>
           <a href="mailto:hello@brizzle-english.com?subject=Demande d'informations sur les nouvelles classes pour la rentrée">
