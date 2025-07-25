@@ -22,19 +22,20 @@ export default function AdultsPage() {
         <h2>L'anglais pour adultes </h2>
         <p className="modal-text kids-text">
           <FaPerson className="icon" />
-          Cours particuliers pour 1 ou 2 personnes
+          Cours particuliers pour 1, 2, 3 ou 4 personnes
         </p>
         <p className="modal-text kids-text">
           <FaRegClock className="icon" />
-          Cours d'une heure, horaires flexibles disponibles
+          Horaires flexibles disponibles
         </p>
         <p className="modal-text kids-text">
           <FaLocationDot className="icon" />
-          83570 Carcès
+          Chemin Notre Dame, 83570 Carcès
         </p>
         <p className="modal-text kids-text">
           <FaEuroSign className="icon" />
-          40 € par heure
+          40 € par heure (Le prix par heure ne change pas en fonction du nombre
+          de personnes)
         </p>
         <h3>Réserver un cours</h3>
         <p className="modal-text">
@@ -43,10 +44,9 @@ export default function AdultsPage() {
           créneaux disponibles en journée les lundis, mardis, jeudis et
           vendredis, et quelques créneaux en soirée et le week-end.
         </p>
-        <p className="modal-text">
-          J'offre une réduction de 25 % aux étudiants réservant au moins dix
-          cours d'une heure. Ainsi, dix cours réservés ensemble coûteront 300 €
-          (au lieu de 400 € si réservés un par un).
+        <p className="modal-text reduction">
+          Je propose une réduction de 25 % pour ceux qui réservent 10 heures.
+          Ainsi, un bloc de 10 heures coûte 300 €.
         </p>
         <p className="modal-text">
           <a href="mailto:hello@brizzle-english.com?subject=Reservation de cours individuels">
