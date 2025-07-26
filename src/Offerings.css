@@ -46,10 +46,6 @@
   object-fit: cover;
 }
 
-.Offerings .children-reading {
-  object-position: bottom;
-}
-
 .Offerings .card-text {
   color: #38438f;
   text-align: center;
