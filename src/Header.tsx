@@ -3,7 +3,7 @@ import { FaEnvelope } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import square from "./assets/brizzle-insta-square.png";
-import hero from "./assets/hero4.png";
+import hero from "./assets/hero5.png";
 
 export default function Header() {
   return (

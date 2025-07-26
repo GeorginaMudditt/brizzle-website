@@ -79,7 +79,53 @@ export default function KidsPage() {
         <a href="https://tally.so/r/m69kKJ" target="_blank" rel="noreferrer">
           <button className="button no-margin">S'inscrire</button>
         </a> */}
-        <h3>Disponible dès maintenant : cours particuliers</h3>
+
+        <h3>Cours collectifs : Nouvelles classes pour la rentrée 2025</h3>
+        <h4>Cours en groupe pour les enfants de 4 à 11 ans</h4>
+        <p className="modal-text kids-text">
+          <FaCalendarAlt className="icon" />
+          Mardis 16h15 à 17h45 (École Petit Bois, Carcès) : CP à CE2
+        </p>
+        <p className="modal-text kids-text">
+          <FaCalendarAlt className="icon" />
+          Mercredis 9h15 à 10h15 (Oustaou Per Touti, Carcès) : MS & GS
+        </p>
+        <p className="modal-text kids-text">
+          <FaCalendarAlt className="icon" />
+          Mercredis 10h30 à 11h30 (Oustaou Per Touti, Carcès): CP à CM2 (pour
+          les enfants non scolarisés à Carcès)
+        </p>
+        <p className="modal-text kids-text">
+          <FaCalendarAlt className="icon" />
+          Jeudis 16h15 à 17h45 (École Petit Bois, Carcès): CP à CE2
+        </p>
+        <p className="modal-text kids-text">
+          <FaCalendarAlt className="icon" />
+          Vendredis 16h15 à 17h45 (École Petit Bois, Carcès) : CE2 à CM2
+        </p>
+        <p className="modal-text kids-text">
+          <FaChalkboardTeacher className="icon" />
+          12 ou 13 semaines de cours, de septembre à décembre 2025
+        </p>
+        <p className="modal-text kids-text">
+          <FaEuroSign className="icon" />
+          120 € pour 12 semaines, 130 € pour 13 semaines
+        </p>
+        <p>
+          Pour inscrire votre enfant, il vous suffit de{" "}
+          <a href="https://tally.so/r/wdJZ2o" target="_blank" rel="noreferrer">
+            remplir ce formulaire
+          </a>
+          . Votre réservation sera confirmée immédiatement, puis votre facture
+          vous sera envoyée au début des cours en septembre.
+        </p>
+        <p>
+          Si vous souhaitez des informations supplémentaires, veuillez{" "}
+          <a href="mailto:hello@brizzle-english.com?subject=Demande d'informations sur les nouvelles classes pour la rentrée">
+            m'envoyer un email.
+          </a>
+        </p>
+        <h3>Cours particuliers</h3>
         <p className="modal-text kids-text">
           <FaChild className="icon" />
           Pour 1 ou 2 enfants, tout âge
@@ -97,37 +143,6 @@ export default function KidsPage() {
             Contactez-moi
           </a>{" "}
           pour plus d’informations.
-        </p>
-
-        <h3>À venir : Nouvelles classes pour la rentrée</h3>
-        <h4>Cours en groupe pour les enfants de 4 à 11 ans</h4>
-        <p className="modal-text kids-text">
-          <FaCalendarAlt className="icon" />
-          Mercredis 9h15 à 10h15 (Oustaou Per Touti, Carcès) : MS & GS
-        </p>
-        <p className="modal-text kids-text">
-          <FaCalendarAlt className="icon" />
-          Mercredis 10h30 à 11h30 (Oustaou Per Touti, Carcès): CP à CM2 (pour
-          les enfants non scolarisés à Carcès)
-        </p>
-        <p className="modal-text kids-text">
-          <FaCalendarAlt className="icon" />
-          Jeudis 16h45 à 17h45 (École Petit Bois, Carcès): CP à CE2
-        </p>
-        <p className="modal-text kids-text">
-          <FaCalendarAlt className="icon" />
-          Vendredis 16h45 à 17h45 (École Petit Bois, Carcès) : CE2 à CM2
-        </p>
-        <p className="modal-text kids-text">
-          <FaChalkboardTeacher className="icon" />
-          13 ou 14 semaines de cours, de septembre à décembre 2025
-        </p>
-        <p>
-          <a href="mailto:hello@brizzle-english.com?subject=Demande d'informations sur les nouvelles classes pour la rentrée">
-            Envoyez-moi un e-mail
-          </a>{" "}
-          pour être ajouté à la liste de diffusion et être parmi les premiers
-          informés lorsque les détails et les inscriptions seront disponibles.
         </p>
       </div>
     </div>

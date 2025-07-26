@@ -2,17 +2,17 @@ import "./Offerings.css";
 import { Link } from "react-router-dom";
 import kids from "./assets/children.jpg";
 import adults from "./assets/adult-learning.jpg";
-import online from "./assets/online-lesson.jpg";
+import books from "./assets/child-books.jpg";
 import application from "./assets/application.jpg";
 
 export default function Offerings() {
   return (
     <div className="Offerings">
-      <h1>Trouver un programme</h1>
-      {/* <h2>
-        Inscriptions pour le programme L'Été avec Brizzle sont désormais
-        ouvertes ! <Link to="/kids">En savoir plus.</Link>
-      </h2> */}
+      <h1>Cours d'anglais</h1>
+      <h2>
+        Inscriptions pour la rentrée 2025 sont désormais ouvertes !<br />{" "}
+        <Link to="/kids">En savoir plus.</Link>
+      </h2>
       <div className="offerings-container">
         <Link to="/kids" className="card">
           <img src={kids} className="card-img-top" alt="Kids lessons" />
@@ -26,10 +26,13 @@ export default function Offerings() {
             <p className="card-text">Adultes</p>
           </div>
         </Link>
-        <Link to="/online" className="card">
-          <img src={online} className="card-img-top" alt="Online lessons" />
+      </div>
+      <h1>Ressources pour apprendre l'anglais</h1>
+      <div className="offerings-container">
+        <Link to="/books" className="card">
+          <img src={books} className="card-img-top" alt="Books to buy" />
           <div className="card-body">
-            <p className="card-text">En ligne</p>
+            <p className="card-text">Livres</p>
           </div>
         </Link>
         <Link to="/application" className="card">

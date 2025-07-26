@@ -25,7 +25,7 @@ export default function ApplicationPage() {
         <p className="modal-text">
           Je suis en train de développer une application de vocabulaire en
           anglais qui sera disponible à l'achat sur le Google Play Store et
-          l'Apple App Store en septembre 2025.
+          l'Apple App Store en 2026.
           <br />
           <br /> L'application comportera 6 niveaux de langue différents
           conformément au{" "}
@@ -38,10 +38,6 @@ export default function ApplicationPage() {
           </a>
           .
           <br />
-          <br />
-          Les élèves qui s'inscriront à mes cours (en présentiel ou en ligne)
-          bénéficieront d'un accès gratuit à cette application avant qu'elle ne
-          soit disponible au grand public !
         </p>
       </div>
     </>
