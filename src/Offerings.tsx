@@ -30,7 +30,11 @@ export default function Offerings() {
       <h1>Ressources pour apprendre l'anglais</h1>
       <div className="offerings-container">
         <Link to="/books" className="card">
-          <img src={books} className="card-img-top" alt="Books to buy" />
+          <img
+            src={books}
+            className="card-img-top children-reading"
+            alt="Books to buy"
+          />
           <div className="card-body">
             <p className="card-text">Livres</p>
           </div>
