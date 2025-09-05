@@ -10,8 +10,8 @@ export default function Offerings() {
     <div className="Offerings">
       <h1>Cours d'anglais</h1>
       <h2>
-        Inscriptions pour la rentrée 2025 sont désormais ouvertes !<br />{" "}
-        <Link to="/kids">En savoir plus.</Link>
+        Inscriptions pour le stage d'anglais de la Toussaint sont désormais
+        ouvertes ! <Link to="/kids">En savoir plus.</Link>
       </h2>
       <div className="offerings-container">
         <Link to="/kids" className="card">

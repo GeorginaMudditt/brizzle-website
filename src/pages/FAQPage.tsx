@@ -20,9 +20,10 @@ export default function FAQPage() {
           Où se déroulent les cours d'anglais ?
         </p>
         <p className="answer modal-text">
-          Les cours se déroulent chez moi à Carcès. Après votre inscription, je
-          vous enverrai l'adresse. Il y a également une option pour des cours en
-          ligne via Google Meet.
+          Les cours pour enfants ont lieu soit à l’école Petit Bois, soit à
+          l’Oustaou per Touti à Carcès. Les stages et les cours pour adultes ont
+          lieu chez moi, au Chemin Notre Dame. Il y a également une option pour
+          des cours en ligne via Google Meet.
         </p>
         {/* <p className="question modal-text">
           J'ai un enfant dans le groupe d'âge plus jeune (CP/CE1/CE2).

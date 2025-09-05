@@ -35,56 +35,55 @@ export default function KidsPage() {
           <FaRegSmile className="icon" />
           Cours ludiques et interactifs
         </p>
-        {/* <h3>Inscriptions ouvertes : L’Été avec Brizzle</h3>
-        <h4>Deux semaines d’anglais pendant les vacances d’été</h4>
+
+        <h3>Stage d'anglais : Automne avec Brizzle</h3>
+        <h4>
+          Un programme d'anglais intensif d'une semaine pendant les vacances de
+          la Toussaint
+        </h4>
         <p className="modal-text kids-text">
           <FaCalendarAlt className="icon" />
-          28 juillet - 1 août 2025 / 4 - 8 août 2025
+          Lundi 27 octobre - vendredi 31 octobre 2025
+        </p>
+        <p className="modal-text kids-text">
+          <FaRegClock className="icon" />
+          9h45 - 16h15
         </p>
         <p className="modal-text kids-text">
           <FaChild className="icon" />6 - 11 ans
         </p>
         <p className="modal-text kids-text">
-          <FaChalkboardTeacher className="icon" />
-          Réservez une ou deux semaines pour votre enfant
+          <FaLocationDot className="icon" />
+          Chemin Notre Dame, 83570 Carcès
         </p>
         <p className="modal-text kids-text">
-          <TiStopwatch className="icon" />
-          Inscriptions ouvertes jusqu’au 8 juillet 2025
+          <FaEuroSign className="icon" />
+          200 € par enfant pour la semaine (repas non inclus)
         </p>
-        <p className="modal-text kids-text">
-          <TbHexagonNumber1 className="icon" />
-          Étape 1 : Consultez les informations ci-dessous – et n’hésitez pas à
-          m’écrire par e-mail si vous avez des questions.
+        <p>
+          Pour inscrire votre enfant, il vous suffit de{" "}
+          <a href="https://tally.so/r/wMx24g" target="_blank" rel="noreferrer">
+            remplir ce formulaire
+          </a>
+          . Votre réservation sera confirmée par email, puis votre facture vous
+          sera envoyée plus tard (mi-octobre).
         </p>
-        <p className="modal-text kids-text">
-          <TbHexagonNumber2 className="icon" />
-          Étape 2 : Inscrivez votre enfant en cliquant sur le lien ci-dessous.
-          Si vous inscrivez plusieurs enfants, merci de remplir un formulaire
-          différent pour chaque enfant.
+        <p>
+          Si vous souhaitez des informations supplémentaires, veuillez{" "}
+          <a href="mailto:hello@brizzle-english.com?subject=Demande d'informations sur le stage d'anglais de la Toussaint">
+            m'envoyer un email.
+          </a>
         </p>
-        <p className="modal-text kids-text">
-          <TbHexagonNumber3 className="icon" />
-          Étape 3 : Vous recevrez un e-mail de confirmation peu après
-          l’inscription, puis votre facture vous sera envoyée après le 8
-          juillet.
-        </p>
-        <a
-          href="https://ulrwcortyhassmytkcij.supabase.co/storage/v1/object/public/brizzle-logos//summer-flyer.png"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <button className="button">En savoir plus</button>
-        </a>
-        <a href="https://tally.so/r/m69kKJ" target="_blank" rel="noreferrer">
-          <button className="button no-margin">S'inscrire</button>
-        </a> */}
 
-        <h3>Cours collectifs : Nouvelles classes pour la rentrée 2025</h3>
+        <h3>Cours collectifs : Septembre à Decembre 2025</h3>
         <h4>Cours en groupe pour les enfants de 4 à 11 ans</h4>
         <p className="modal-text kids-text">
           <FaCalendarAlt className="icon" />
-          Mardis 16h15 à 17h45 (École Petit Bois, Carcès) : CP à CE2
+          Lundis 16h45 à 17h45 (École Petit Bois, Carcès) : CP à CE2
+        </p>
+        <p className="modal-text kids-text">
+          <FaCalendarAlt className="icon" />
+          Mardis 16h45 à 17h45 (École Petit Bois, Carcès) : CP à CE2 (COMPLET)
         </p>
         <p className="modal-text kids-text">
           <FaCalendarAlt className="icon" />
@@ -97,11 +96,11 @@ export default function KidsPage() {
         </p>
         <p className="modal-text kids-text">
           <FaCalendarAlt className="icon" />
-          Jeudis 16h15 à 17h45 (École Petit Bois, Carcès): CP à CE2
+          Jeudis 16h45 à 17h45 (École Petit Bois, Carcès): CP à CE2 (COMPLET)
         </p>
         <p className="modal-text kids-text">
           <FaCalendarAlt className="icon" />
-          Vendredis 16h15 à 17h45 (École Petit Bois, Carcès) : CE2 à CM2
+          Vendredis 16h45 à 17h45 (École Petit Bois, Carcès) : CE2 à CM2
         </p>
         <p className="modal-text kids-text">
           <FaChalkboardTeacher className="icon" />
@@ -116,8 +115,8 @@ export default function KidsPage() {
           <a href="https://tally.so/r/wdJZ2o" target="_blank" rel="noreferrer">
             remplir ce formulaire
           </a>
-          . Votre réservation sera confirmée immédiatement, puis votre facture
-          vous sera envoyée au début des cours en septembre.
+          . Votre réservation sera confirmée par email, puis votre facture vous
+          sera envoyée plus tard (mi-septembre).
         </p>
         <p>
           Si vous souhaitez des informations supplémentaires, veuillez{" "}
@@ -125,7 +124,8 @@ export default function KidsPage() {
             m'envoyer un email.
           </a>
         </p>
-        <h3>Cours particuliers</h3>
+
+        {/* <h3>Cours particuliers</h3>
         <p className="modal-text kids-text">
           <FaChild className="icon" />
           Pour 1 ou 2 enfants, tout âge
@@ -143,7 +143,7 @@ export default function KidsPage() {
             Contactez-moi
           </a>{" "}
           pour plus d’informations.
-        </p>
+        </p> */}
       </div>
     </div>
   );
