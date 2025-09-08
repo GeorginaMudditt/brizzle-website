@@ -4,9 +4,11 @@ import { FaChild } from "react-icons/fa";
 import { FaRegClock } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaRegSmile } from "react-icons/fa";
-import { FaChalkboardTeacher } from "react-icons/fa";
+// import { FaChalkboardTeacher } from "react-icons/fa";
 import { FaCalendarAlt } from "react-icons/fa";
 import { FaEuroSign } from "react-icons/fa";
+import Planning1 from "../assets/planning-rentree-final.png";
+import Planning2 from "../assets/Planning-Sept-Dec-2025.png";
 // import { TiStopwatch } from "react-icons/ti";
 // import { TbHexagonNumber1 } from "react-icons/tb";
 // import { TbHexagonNumber2 } from "react-icons/tb";
@@ -77,11 +79,25 @@ export default function KidsPage() {
 
         <h3>Cours collectifs : Septembre à Decembre 2025</h3>
         <h4>Cours en groupe pour les enfants de 4 à 11 ans</h4>
-        <p className="modal-text kids-text">
-          <FaCalendarAlt className="icon" />
-          Lundis 16h45 à 17h45 (École Petit Bois, Carcès) : CP à CE2
+        <p>
+          Les inscriptions pour ces cours sont maintenant fermées. Veuillez{" "}
+          <a href="mailto:hello@brizzle-english.com?subject=Demande d'informations sur les nouvelles classes pour janvier 2026">
+            me contacter
+          </a>{" "}
+          si vous souhaitez exprimer votre intérêt pour les cours commençant en
+          janvier 2026.
         </p>
-        <p className="modal-text kids-text">
+        <img
+          src={Planning1}
+          alt="Planning des cours enfants"
+          className="planning-image"
+        />
+        <img
+          src={Planning2}
+          alt="Planning des cours enfants"
+          className="planning-image"
+        />
+        {/* <p className="modal-text kids-text">
           <FaCalendarAlt className="icon" />
           Mardis 16h45 à 17h45 (École Petit Bois, Carcès) : CP à CE2 (COMPLET)
         </p>
@@ -123,7 +139,7 @@ export default function KidsPage() {
           <a href="mailto:hello@brizzle-english.com?subject=Demande d'informations sur les nouvelles classes pour la rentrée">
             m'envoyer un email.
           </a>
-        </p>
+        </p> */}
 
         {/* <h3>Cours particuliers</h3>
         <p className="modal-text kids-text">
