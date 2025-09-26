@@ -53,6 +53,15 @@ h2 {
   margin-right: 40px;
 }
 
+.button-middle {
+  margin: 0 auto;
+  display: block;
+}
+
+.button-middle:hover {
+  background-color: #ba3627;
+}
+
 .button-red {
   background-color: #ba3627;
 }
@@ -78,7 +87,7 @@ h2 {
   border-radius: 10px;
   display: block;
   margin: 30px auto;
-  width: 150px;
+  width: 250px;
 }
 .modal-text {
   font-size: 18px;

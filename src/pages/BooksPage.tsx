@@ -23,8 +23,8 @@ export default function BooksPage() {
           alt="Screenshot of book cover"
         />
         <p className="modal-text">
-          Excellente nouvelle : le premier tome de ma série de livres pour
-          enfants arrive bientôt !
+          Excellente nouvelle : Le premier de ma série de livres "Tilio & Theo"
+          est maintenant disponible à l'achat !
         </p>
         <p className="modal-text">
           Rejoignez Tilio, un jeune garçon français de Carcès, dans ses
@@ -44,13 +44,16 @@ export default function BooksPage() {
           code QR à l'intérieur de la couverture du livre.
         </p>
         <p className="modal-text">
-          Au prix de seulement 10 euros, "Book 1 : The dream" sera disponible en
-          septembre 2025. Précommandez votre exemplaire en{" "}
-          <a href="mailto:hello@brizzle-english.com?subject=Précommander le livre 1 de Tilio and Theo">
-            m'envoyant un email
-          </a>
-          .
+          À seulement 9,99 € (plus 1,50 € de livraison vers la France
+          métropolitaine), commandez votre exemplaire dès maintenant.
         </p>
+        <a
+          href="https://buy.stripe.com/4gMeV61gadKH4RCca8dQQ00"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="button button-middle">Achetez Book 1</button>
+        </a>
       </div>
     </>
   );
